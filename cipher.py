@@ -1,11 +1,10 @@
 #import sys
 print("Welcome to the Ceasar Cipher!")
 
-phrase = input('Type in your secret message here\n')
+phrase = input('Please enter a sentence\n')
 
 encryption = phrase.maketrans("abcdefghijklmnopqrstuvwxyz", "fghijklmnopqrstuvwxyzabcde")
 output = phrase.translate(encryption)
-print("Your message : ", phrase)
-print("Your secret message becomes: ", output)
+print("The encrypted sentence is: ", output)
 
 #sys.exit("Congratulations on making a secret message. Goodbye")
