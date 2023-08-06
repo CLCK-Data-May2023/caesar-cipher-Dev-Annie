@@ -1,4 +1,4 @@
-import sys
+#import sys
 print("Welcome to the Ceasar Cipher!")
 
 phrase = input('Type in your secret message here\n')
@@ -8,4 +8,4 @@ output = phrase.translate(encryption)
 print("Your message : ", phrase)
 print("Your secret message becomes: ", output)
 
-sys.exit("Congratulations on making a secret message. Goodbye")
+#sys.exit("Congratulations on making a secret message. Goodbye")
