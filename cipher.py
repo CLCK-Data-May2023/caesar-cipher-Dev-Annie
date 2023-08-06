@@ -3,8 +3,8 @@
 
 phrase = input('Please enter a sentence\n')
 
-encryption = phrase.maketrans("abcdefghijklmnopqrstuvwxyz", "fghijklmnopqrstuvwxyzabcde")
+encryption = phrase.maketrans("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", "fghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcde")
 output = phrase.translate(encryption)
-print("The encrypted sentence is: ", output)
+print("The encrypted sentence is: ",output)
 
 #sys.exit("Congratulations on making a secret message. Goodbye")
